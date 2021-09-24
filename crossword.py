@@ -1,6 +1,6 @@
 a = str(input())
 b = str(input())
-c = b.append(a)
+c = b + a
 d = int(input())
 
 if len(c) == d:
