@@ -1,2 +1,2 @@
-A = input("Bob")
+A = input()
 print("Goodbye " + A + "!")
