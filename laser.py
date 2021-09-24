@@ -10,8 +10,8 @@ while e > 0:
 
 while f > 0:
   teamScores.append(indivScores[1] + indivScores[0])
-  del indivScores[0:1]
+  del indivScores[0:2]
   f -= 2
+  
 
-teamScores.sort(reverse=True)
-print(teamScores)
+print(teamScores.sort(reverse=True))
