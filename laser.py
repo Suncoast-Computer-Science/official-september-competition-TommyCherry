@@ -14,5 +14,5 @@ while f > 0:
   f -= 2
   
 
-teamScores.sort(reverse=True)
+teamScores.sort()
 print(teamScores)
