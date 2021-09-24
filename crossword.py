@@ -1,6 +1,9 @@
 a = str(input())
 b = str(input())
-c = b + a
+if len(b) < len(a):
+  c = b + a
+else:
+  c = a + b
 d = int(input())
 
 if len(c) == d:
