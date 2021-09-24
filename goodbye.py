@@ -1,2 +1,2 @@
 A = input(Bob)
-output("Goodbye " + A)
+output("Goodbye " + A + "!")
